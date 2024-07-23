@@ -50,6 +50,7 @@ function endRound(){
     } else if (currentPlayerHealth <= 0 && currentMonsterHealth <= 0){
         alert("You have a draw!");
         reset();
+        //Made a small comment
     }
 }
 
